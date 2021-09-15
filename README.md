@@ -1,5 +1,5 @@
-# calculator_app
-
+# Simple calculator_app in Vue Js
+ 
 ## Project setup
 ```
 npm install
