@@ -1,7 +1,7 @@
 <template>
   <div class="calculator">
 
-    <div>Hello</div>
+    <div class="display">9890898</div>
     <div>Hello</div>
     <div>Hello</div>
     <div>Hello</div>
@@ -34,5 +34,12 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
 }
+
+.display{
+  /*specify how many column the display takes*/
+  grid-column:1/5 ;  /*start at column one and end after column 4*/
+  background-color: red;
+}
+
 
 </style>
